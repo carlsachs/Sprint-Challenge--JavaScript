@@ -17,7 +17,7 @@
 //   'width': 5,
 //   'height': 5,
 // })
-class CuboidMaker {
+class CuboidMaker{
   constructor(length, width, height) {
     this.length = length;
     this.width = width;
