@@ -1,0 +1,17 @@
+1. Describe the biggest difference between `.forEach` & `.map`.
+.forEach affects the original array, while map makes a new one to adjust.
+
+2. What is the difference between a function and a method?
+a function can be grabbed anywhere, whereas a method is specific to an object
+
+3. What is closure?
+Closure means that a sub function can access objects and parameters from outside its scope.
+
+4. Describe the four rules of the 'this' keyword.
+1. Global - .this will in be in the window object
+2. Implicit - Whenever called by a preceding dot, the object left of the dot gets this.
+3. New - Whenever constructor function is used, this refers to the specific instance of the object that is created and returned by the constructor function
+4. Explicit - Whenever Javascrupt's call or apply method is used, the is explicitly defined.
+
+5. Why do we need super() in an extended class?
+super() allows us to grab the attrributes from the parent class, and possibly add more if needed, below the super()
