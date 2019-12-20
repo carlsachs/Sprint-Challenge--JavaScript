@@ -25,7 +25,8 @@
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// Explanation: 
+// Explanation: This nested function can access the variable "internal" because it's nested within the function that the 
+// variable is defined in, hence it's technically by default grabbable by the nested function, as its within the same function.
 
 
 const external = "I'm outside the function";
