@@ -22,7 +22,9 @@ function add(argument1, argument2){
 function multiply(argument1, argument2){
   return argument1 * argument2;
 }
-
+function greeting(first, last){
+  return `Hello, ${first} ${last}, nice to meet you!`;
+}
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
 // console.log(consume(2, 2, add)); // 4
