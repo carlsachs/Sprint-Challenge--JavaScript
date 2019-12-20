@@ -1,4 +1,5 @@
 1. Describe the biggest difference between `.forEach` & `.map`.
+.forEach affects the original array, while map makes a new one to adjust.
 
 2. What is the difference between a function and a method?
 
