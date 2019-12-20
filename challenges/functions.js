@@ -19,6 +19,9 @@ function consume(argument1, argument2, cb){
 function add(argument1, argument2){
   return argument1 + argument2;
 }
+function multiply(argument1, argument2){
+  return argument1 * argument2;
+}
 
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
