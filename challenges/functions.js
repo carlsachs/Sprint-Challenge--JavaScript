@@ -16,6 +16,9 @@ function consume(argument1, argument2, cb){
   * Create a function named multiply that returns the product of two numbers 
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
+function add(argument1, argument2){
+  return argument1 + argument2;
+}
 
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
